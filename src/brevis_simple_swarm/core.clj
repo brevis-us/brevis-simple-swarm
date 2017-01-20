@@ -150,6 +150,7 @@
   (dotimes [_ @num-birds]
     (add-object (random-bird))))
 
+
 ;; Start zee macheen
 (defn -main [& args]
   (if-not (empty? args)
